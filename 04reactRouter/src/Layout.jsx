@@ -2,7 +2,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { Outlet } from "react-router-dom";
 
-function Route() {
+function Layout() {
   return (
     <>
       <Header />
@@ -12,4 +12,4 @@ function Route() {
   );
 }
 
-export default Route;
+export default Layout;
